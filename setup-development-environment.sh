@@ -7,7 +7,6 @@ cd ACABIM;
 
 mkdir ACABIM-BackEnd;
 mkdir ACABIM-FrontEnd;
-mkdir ACABIM-Server-Config;
 
 cd ACABIM-BackEnd;
 
@@ -148,5 +147,9 @@ mkdir Framworks;
 cd Framworks;
 
 git clone git@github.com:CAS-HUB/acabim-api-client.git acabim-api-client -v --progress;
+
+cd ../..;
+
+git clone git@github.com:CAS-HUB/ACABIM-Server-Config.git ACABIM-Server-Config -v --progress;
 
 echo "Development Environment is Ready";
